@@ -1,0 +1,11 @@
+# Bỏ qua tất cả mọi thứ trong repository
+*
+
+# Ngoại trừ các thư mục (để Git có thể đi sâu vào tìm file bên trong)
+!*/
+
+# Ngoại trừ (cho phép nhận) các file Python
+!*.py
+
+# Ngoại trừ chính file .gitignore này (khuyên dùng để lưu lại cấu hình)
+!.gitignore
